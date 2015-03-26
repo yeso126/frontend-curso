@@ -3,40 +3,94 @@
 <head>
 	<meta charset="utf-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>Foundation blog</title>
+	<title>Yeso's foundation blog</title>
 	 <link rel="stylesheet" href="foundation/css/foundation.css" />
     <script src="foundation/js/vendor/modernizr.js"></script>
 </head>
 <body>
 	<header class="row">
 		<h1>
-			Esto es un blog en foundaiton
+			Yeso's foundation blog
 		</h1>
+
+						<nav class="top-bar" data-topbar role="navigation">
+			  <ul class="title-area">
+			    <li class="name">
+			      <h1><a href="#">Yeso's Blog</a></h1>
+			    </li>
+			     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+			    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+			  </ul>
+
+			  <section class="top-bar-section">
+			    <!-- Right Nav Section -->
+			    <ul class="right">
+			      <li class="active"><a href="#">Boton derecho</a></li>
+			      <li class="has-dropdown">
+			        <a href="#">Boton derecho colapsable</a>
+			        <ul class="dropdown">
+			          <li><a href="#">primer link</a></li>
+			          <li class="active"><a href="#">link activo</a></li>
+			        </ul>
+			      </li>
+			    </ul>
+
+			    <!-- Left Nav Section -->
+			    <ul class="left">
+			      <li><a href="#">Contacto</a></li>
+			    </ul>
+			  </section>
+			</nav>
+
 	</header>
-	
+
 	<section class="row">
 		<section class="small-12 medium-8 large-7 columns">
 			<article class="row panel">
 				<h2>titulo del post</h2>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veniam suscipit unde illum! Similique repellat ratione nihil molestiae cumque eligendi odit neque?
+				<p>	
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veniam suscipit unde illum! Similique repellat ratione nihil molestiae cumque eligendi odit neque?
+				</p>
+				<a href="" class="button radius">Ir al post</a>
 			</article>
 			<article class="row panel">
-				<h2>titulo del post</h2>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veniam suscipit unde illum! Similique repellat ratione nihil molestiae cumque eligendi odit neque?
+				<h2>titulo del post2</h2>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veniam suscipit unde illum! Similique repellat ratione nihil molestiae cumque eligendi odit neque?
+				</p>
+				<a href="" class="button radius">Ir al post</a>
 			</article>
 		</section>
 		<section class="small-12 medium-4 large-4 columns">
-			<section class="row">
-				<article class="small-6 columns panel">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veniam suscipit unde illum! Similique repellat ratione nihil molestiae cumque eligendi odit neque?
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore.
+					</p>
+					
 				</article>	
-				<article class="small-6 columns panel">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veniam suscipit unde illum! Similique repellat ratione nihil molestiae cumque eligendi odit neque?
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veni
+					</p>
+				</article>
+			</section>
+			<section class="row" data-equalizer>
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. 
+					</p>
+				</article>	
+				<article class="small-6 columns panel" data-equalizer-watch>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius maxime aspernatur cupiditate voluptatibus tempore. Laudantium perferendis dolorem, veni
+					</p>
 				</article>	
 			</section>
 		</section>
 	</section>
-	<!-- <section class="row">
+	<!-- <section class="row panel">
+
 		Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel minus animi ab amet modi. Aspernatur omnis tempora nesciunt tenetur maiores inventore, quibusdam laboriosam officiis maxime architecto, dolorum earum accusantium dicta!
 	</section> -->
 	<script src="foundation/js/vendor/jquery.js"></script>
@@ -47,3 +101,4 @@
 </body>
 </html>
 
+			
